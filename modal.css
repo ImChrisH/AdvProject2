@@ -1,0 +1,26 @@
+.modalcontainer {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modalbody {
+    border-radius: 5px;
+    background-color: white;
+    padding: 2rem;
+    width:30em;
+    
+
+}
+
+.modalbutton {
+    background-color: green;
+    
+}
